@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructura de datos</title>
+</head>
+<body>
+    <h2>Estructura de datos</h2>
+    <h3>Listas</h3>
+    <h4>Cartelera de cine</h4>
+    <ol>
+        <li>{{movies[0]}}</li>
+        <li>{{movies[1]}}</li>
+        <li>{{movies[2]}}</li>
+        <li>{{movies[3]}}</li>
+    </ol>
+    
+    <h3>Diccionarios</h3>
+    <h4>Peliculas Destacadas</h4>
+    <p>
+        La pelicula destacada de hoy es: 
+        {{ destacada["nombre"] }},  la cual fué estrenada en el año {{ destacada["año"] }},
+        y su protagonista es: {{destacada["protagonista"]}}
+    </p>
+
+
+    <h3>Clases</h3>
+    <h4>Pelicula favorita del panchito</h4>
+    <p>
+        La peli favorita del panchito del video es: <br> {{favorita.nombre}}, <br>es del año <br>{{favorita.año}} y su protagonista es: <br> {{favorita.protagonista}}
+    </p>
+</body>
+</html>
